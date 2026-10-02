@@ -42,7 +42,7 @@
 
 import {Worker} from "node:worker_threads";
 
-const worker = new Worker('./worker.js',{workerData: {num: 5}});
+const worker = new Worker('./square-worker.js',{workerData: {num: 5}});
 
 worker.on('message',(data)=>{
     console.log('square of num: ',data);

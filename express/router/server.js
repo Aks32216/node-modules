@@ -1,5 +1,5 @@
 import express from "express";
-import {globalHandler, globalErrorHandler} from "./middlewares/globalMiddlewares.js";
+import {globalHandler, globalErrorHandler} from "./middlewares/global-middlewares.js";
 import userRouter from "./routes/users.js";
 import postRouter from "./routes/posts.js"; 
 

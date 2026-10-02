@@ -1,0 +1,2 @@
+This is a plain text file used to practice serving static assets
+with Content-Type: text/plain.
