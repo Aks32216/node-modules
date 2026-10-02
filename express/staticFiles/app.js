@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, "public")));
-app.use("/assets", express.static(path.join(__dirname, "uploads", "assets")));
+app.use("/assets", express.static(path.join(__dirname, "uploads")));
 
 app.get("/files/:name", (req, res, next) => {
   // this will serve any file defined
