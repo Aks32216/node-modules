@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: package-lock.json
+  checksum: 8650dfdf46e718861024b6672940a87f9c4d00b71da3902c674616da21b2ee7d
+- filename: express/express.js
+  checksum: b424151b537155153ebce1b56b12acaafd9559279c9e035ce913cff4ea2c3ece
+- filename: express/exp5.js
+  checksum: 09545ddfbbfba06b8db58174e0d6d7f79960ebadeacfde77ec554f3a30dd71e7
+version: "1.0"
